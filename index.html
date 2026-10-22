@@ -3,250 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Referência - Rogério dos Santos Ferreira</title>
+    <title>Rogério dos Santos Ferreira | Perito</title>
     <style>
-        /* Estilos básicos simulando a paleta corporativa recomendada */
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        /* 1. DOBRA PRINCIPAL / BANNER */
-        header {
-            background-color: #0B2545; /* Azul Marinho Corporativo */
-            color: #ffffff;
-            text-align: center;
-            padding: 60px 20px;
-            border-bottom: 5px solid #D4AF37; /* TOQUE DE DOURADO: Borda do Banner */
-        }
-        header h1 {
-            font-size: 2.5rem;
-            margin: 0 0 10px 0;
-            font-weight: 700;
-        }
-        header h2 {
-            font-size: 1.4rem;
-            color: #D4AF37; /* TOQUE DE DOURADO: Subtítulo de Impacto */
-            margin: 0 0 15px 0;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        header p {
-            font-size: 1.1rem;
-            max-width: 700px;
-            margin: 0 auto;
-            font-style: italic;
-            opacity: 0.9;
-        }
-        /* 2. SEÇÃO DE BOTÕES (CTA) */
-        .cta-section {
-            text-align: center;
-            margin: 30px 0;
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 25px;
-            margin: 10px;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        .btn-primary {
-            background-color: #25D366; /* Verde WhatsApp */
-            color: white;
-        }
-        .btn-secondary {
-            background-color: #134074; /* Azul de Destaque */
-            color: white;
-        }
-        /* SEÇÕES GERAIS */
-        section {
-            background: #ffffff;
-            padding: 30px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-        h3 {
-            color: #0B2545;
-            border-bottom: 2px solid #D4AF37; /* TOQUE DE DOURADO: Linha divisória das seções */
-            padding-bottom: 8px;
-            margin-top: 0;
-            font-size: 1.5rem;
-        }
-        /* 4. CARDS DE ATUAÇÃO */
-        .grid-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .card {
-            background: #f8f9fa;
-            padding: 20px;
-            border-left: 4px solid #134074;
-            border-radius: 4px;
-        }
-        .card h4 {
-            margin: 0 0 10px 0;
-            color: #134074;
-            font-size: 1.15rem;
-        }
-        .card ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-        /* 5. LOGOS / PARCEIROS */
-        .logos-placeholder {
-            background: #f1f3f5;
-            padding: 20px;
-            text-align: center;
-            border: 2px dashed #ced4da;
-            color: #6c757d;
-            font-weight: bold;
-            border-radius: 6px;
-        }
-        /* LISTAS GERAIS */
-        ul.clean-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul.clean-list li {
-            margin-bottom: 12px;
-            padding-left: 15px;
-            position: relative;
-        }
-        ul.clean-list li::before {
-            content: "•";
-            color: #134074;
-            font-weight: bold;
-            font-size: 1.2rem;
-            position: absolute;
-            left: 0;
-            top: -2px;
-        }
-        /* 8. RODAPÉ */
-        footer {
-            background-color: #134074;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-            margin-top: 40px;
-            font-size: 0.95rem;
-        }
-        footer p {
-            margin: 8px 0;
-        }
-        footer a {
-            color: #D4AF37; /* TOQUE DE DOURADO: Links do rodapé em destaque */
-            text-decoration: none;
-            font-weight: bold;
-        }
+        body { font-family: 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #2D3748; margin: 0; padding: 0; background-color: #F4F7F5; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header { background-color: #0D3B22; color: #ffffff; text-align: center; padding: 70px 20px; border-bottom: 5px solid #D4AF37; }
+        header h1 { font-size: 2.6rem; margin: 0 0 10px 0; }
+        header h2 { font-size: 1.35rem; color: #D4AF37; margin: 0 0 15px 0; text-transform: uppercase; }
+        header p { font-size: 1.15rem; max-width: 750px; margin: 0 auto; font-style: italic; opacity: 0.95; }
+        .cta-section { text-align: center; margin: 35px 0; }
+        .btn { display: inline-block; padding: 14px 28px; margin: 10px; font-weight: bold; text-decoration: none; border-radius: 6px; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.08); }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.12); }
+        .btn-primary { background-color: #25D366; color: white; }
+        .btn-secondary { background-color: #1A5335; color: white; }
+        section { background: #ffffff; padding: 35px; margin-bottom: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(13, 59, 34, 0.03); }
+        h3 { color: #0D3B22; border-bottom: 2px solid #D4AF37; padding-bottom: 10px; margin-top: 0; font-size: 1.6rem; }
+        .grid-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 25px; }
+        .card { background: #FAFCFA; padding: 25px; border-left: 4px solid #1A5335; border-radius: 6px; transition: transform 0.3s ease; }
+        .card:hover { transform: scale(1.02); background: #ffffff; }
+        .card h4 { margin: 0 0 12px 0; color: #1A5335; font-size: 1.25rem; }
+        details { background: #FAFCFA; padding: 15px 20px; margin-bottom: 12px; border-left: 4px solid #D4AF37; border-radius: 4px; cursor: pointer; transition: background 0.2s; }
+        details:hover { background: #F0F4F1; }
+        summary { font-weight: bold; color: #1A5335; outline: none; font-size: 1.1rem; }
+        details p { margin: 10px 0 0 0; color: #4A5568; font-size: 1rem; }
+        .logos-container { background: #F8FAF8; padding: 30px; text-align: center; border: 2px dashed #CBD5E0; border-radius: 8px; margin-top: 20px; }
+        ul.clean-list { list-style-type: none; padding: 0; }
+        ul.clean-list li { margin-bottom: 14px; padding-left: 20px; position: relative; }
+        ul.clean-list li::before { content: "•"; color: #D4AF37; font-weight: bold; font-size: 1.4rem; position: absolute; left: 0; top: -3px; }
+        footer { background-color: #0D3B22; color: white; text-align: center; padding: 50px 20px; margin-top: 50px; }
+        footer a { color: #D4AF37; text-decoration: none; font-weight: bold; }
     </style>
 </head>
 <body>
-
-    <!-- 1. DOBRA PRINCIPAL / BANNER -->
     <header>
         <h1>Rogério dos Santos Ferreira</h1>
         <h2>Especialista em Cálculos Judiciais | Perito Calculista</h2>
-        <p>Consultoria Técnica Estratégica Trabalhista, Cível e Previdenciária para Advogados e Empresas.</p>
+        <p>Consultoria Técnica Estratégica
+	<br>Trabalhista, Cível e Previdenciária
+	<br>para Advogados e Empresas.
+	</p>
     </header>
 
-    <!-- ABERTURA DO CONTAINER DE CONTEÚDO -->
     <div class="container">
-
-        <!-- 2. SEÇÃO DE BOTÕES -->
         <div class="cta-section">
-            <a href="#" class="btn btn-primary" target="_blank">💬 Falar no WhatsApp</a>
-            <a href="#" class="btn btn-secondary" target="_blank">📄 Baixar Currículo em PDF</a>
+            <a href="https://api.whatsapp.com/send?phone=5555981570014&text=Olá!%20Acessei%20seu%20site%20e%20preciso%20de%20seus%20serviços." class="btn btn-primary" target="_blank">💬 Falar no WhatsApp</a>
+            <a href="./assets/rogerio-ferreira-curriculo.pdf" class="btn btn-secondary" target="_blank">📄 Baixar Currículo em PDF</a>
         </div>
 
-        <!-- 3. SEÇÃO: SOBRE MIM -->
-        <section id="sobre">
-            <h3>Perfil Profissional</h3>
-            <p>Empresário desde 1997 com sólida bagagem no mercado corporativo e jurídico. Especializado na gestão de passivos, execução judicial, cálculos de provisão e elaboração de relatórios contábeis estratégicos para fusões e incorporações (M&A).</p>
-            <p>Unindo a expertise das ciências contábeis à tecnologia da informação, entrego precisão em ambientes jurídicos totalmente informatizados, com atuação também voltada à adequação de empresas à Lei Geral de Proteção de Dados (LGPD).</p>
-            <p style="font-size: 0.9rem; color: #6c757d; border-top: 1px solid #eee; padding-top: 10px; margin-top: 15px;">
-                <em>Paulistano, nascido em 1975, transplantado em 2024 e motivado pelo impacto social e profissional do meu trabalho.</em>
-            </p>
+        <section id="clientes">
+            <h3>Clientes e Parceiros de Destaque</h3>
+            <div class="logos-container" id="carrossel-placeholder">
+                <span style="color: #718096; font-weight: 600;">[ 🌟 PRÓXIMO PASSO: CONFIGURAÇÃO DO CARROSSEL DE LOGOTIPOS ]</span>
+            </div>
         </section>
-
-        <!-- 4. SEÇÃO: ÁREAS DE ATUAÇÃO -->
+        
+        <section id="sobre">
+            <h3>Perfil Profissional e Formação</h3>
+		<p>Empresário desde 1997 com sólida bagagem no mercado corporativo e jurídico.
+		<br>Especialista na gestão de passivos, execução judicial e relatórios contábeis estratégicos para fusões e incorporações.
+		<br>
+		<br>Técnico de Contabilidade (1993) na Escola Estadual Infante Dom Henrique.
+		<br>Tecnólogo (2013) no Curso Superior de Gestão da Tecnologia da Informação nas Faculdades Integradas Machado de Assis (FEMA).
+		<br>Perito Contábil (2016) pela RDZ Formação de Peritos no curso de Prática de Perícia Contábil (São Paulo/SP).
+		<br>Pós-graduado (2017) em Formação Pedagógica para Docentes da Educação Profissional Técnica e Tecnológica pelo Sistema de Ensino Gaúcho (SEG), com certificação da Faculdade Instituto Brasileiro de Gestão de Negócios (IBGEN).
+		<br>Pós-graduado (2021) em Advocacia no Direito Digital e Proteção de Dados (LGPD) na EBRADI - Escola Brasileira de Direito.
+		<br>Graduando em Ciências Contábeis pela FAM - Centro Universitário das Américas.
+		</p>
+        </section>
+        
         <section id="atuacao">
             <h3>Áreas de Atuação</h3>
             <div class="grid-cards">
                 <div class="card">
                     <h4>Perícia & Cálculos Judiciais</h4>
                     <ul>
-                        <li>Cálculos trabalhistas, cíveis e previdenciários.</li>
-                        <li>Planilhas automatizadas e provisões jurídico-contábeis.</li>
-                        <li>Atuação como Perito Assistente Judicial.</li>
+                        <li>Perito Trabalhista; Perito Assistente Judicial; elaboração de cálculos trabalhistas, cíveis e previdenciários; provisão jurídico contábil.</li>
                     </ul>
                 </div>
                 <div class="card">
-                    <h4>Direito Digital & LGPD</h4>
+                    <h4>Gestão e Informática</h4>
                     <ul>
-                        <li>Adequação de empresas à Lei Geral de Proteção de Dados.</li>
-                        <li>Atuação estruturada como Encarregado de Dados / DPO.</li>
+                        <li>Planilhas automatizadas; gestão de sistemas de informática; gestão de pessoas; gestão, treinamento, desenvolvimento e administração de departamentos de informática; aquisição de equipamentos; contratação de serviços; administração de banco de dados.</li>
                     </ul>
                 </div>
+
                 <div class="card">
-                    <h4>Tecnologia & Gestão</h4>
+                    <h4>Segurança da Informação</h4>
                     <ul>
-                        <li>Governança de TI para departamentos jurídicos.</li>
-                        <li>Gestão, segurança da informação e banco de dados.</li>
+                        <li>Adequação de empresas à Lei Geral de Proteção de Dados (LGPD); DPO (Data Protection Officer) / Encarregado pela segurança da informação.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- 5. SEÇÃO: GRANDES CLIENTES ATENDIDOS -->
-        <section id="clientes">
-            <h3>Clientes e Parceiros de Destaque</h3>
-            <p style="margin-bottom: 15px;">Experiência consolidada no atendimento a grandes corporações nacionais, multinacionais e renomados escritórios de advocacia:</p>
-            <div class="logos-placeholder">
-                [ 🌟 ESPAÇO PARA O CARROSSEL DE LOGOTIPOS NO GOOGLE SITES ]<br>
-                <span style="font-size: 0.85rem; font-weight: normal; color: #495057;">
-                    Sugestão de marcas para incluir as imagens: Petrobrás, Banco do Brasil, Santander, Siemens, General Motors, John Deere, Tozzini Freire, Pinheiro Neto, Citi, Itaú Unibanco, Bradesco, Zurich Seguros.
-                </span>
-            </div>
-        </section>
 
-        <!-- 6. SEÇÃO: FORMAÇÃO ACADÊMICA -->
-        <section id="formacao">
-            <h3>Formação e Especializações</h3>
-            <ul class="clean-list">
-                <li><strong>Ciências Contábeis</strong> – Centro Universitário das Américas (FAM) – <em>Graduando</em></li>
-                <li><strong>Pós-Graduação em Advocacia no Direito Digital e LGPD</strong> – EBRADI (2021)</li>
-                <li><strong>Pós-Graduação em Formação Pedagógica (Educação Técnico-Profissional)</strong> – SEG / IBGEN (2017)</li>
-                <li><strong>Prática de Perícia Contábil</strong> – RDZ Formação de Peritos (2016)</li>
-                <li><strong>Tecnologia em Gestão de TI</strong> – Faculdades Integradas Machado de Assis / FEMA (2013)</li>
-                <li><strong>Técnico em Contabilidade</strong> – Escola Estadual Infante Dom Henrique (1993)</li>
-            </ul>
+        <section id="voluntariado">
+            <h3>Atuação Institucional e Voluntariado</h3>
+            <details><summary>FEMA - Faculdades Integradas Machado de Assis (Fundação Educacional Machado de Assis)</summary>
+		<p>07/2011-06/2012 - Tesoureiro do Diretório Central Irmão Ótão - DICEIO (diretório acadêmico).</p>
+		<p>08/2011-09/2013 - Representante da FEMA, junto ao Conselho Municipal da Juventude de Santa Rosa.</p>
+		<p>09/2011-04/2014 - Integrante do Conselho de Administração Superior - CAS.</p>
+		<p>10/2014-05/2016 - Integrante da Comissão Local de Acompanhamento e Controle Social (CONAP) do PROUNI (Programa Universidade para todos).</p>
+		<p>04/2014-12/2023 - Integrante da Comissão Própria de Avaliação - CPA, como egresso representante da Comunidade.</p>
+	    </details>
+            <details><summary>FENASOJA - Feira Nacional da Soja</summary>
+		<p>07/2012-06/2014 - Integrante do Credenciamento na 20ª FENASOJA</p>
+		<p>07/2014-06/2016 - Presidente do Credenciamento da 21ª FENASOJA</p>
+		<p>07/2016-06/2018 - Presidente do Credenciamento da 22ª edição - FENASOJA 2018</p>
+		<p>07/2018-06/2020 - Vice-Presidente da 23ª edição - FENASOJA 2020</p>
+		<p>07/2020-06/2022 - Executivo e Integrante da Comissão de Recepção ao Presidente Jair Bolsonaro - 24ª edição - FENASOJA 2024</p>
+	    </details>
+            <details><summary>Rotary Internacional</summary>
+		<p>03/2014-05/2023 - Integrante do Rotary Club Santa Rosa Júnior</p>
+		<p>07/2015-06/2016 - Responsável pela Imagem Pública, RC Santa Rosa Júnior</p>
+		<p>02/2016-06/2017 - Conselheiro de Intercâmbio do RC Santa Rosa Júnior, junto ao PIIJ - Programa de Intercâmbio Internacional de Jovens do Distrito 4660</p>
+		<p>04/2016-06/2017 - Presidente do RC Santa Rosa Júnior</p>
+		<p>07/2017-06/2018 - Oficial de Intercâmbio do RC Santa Rosa Júnior, junto ao PIIJ 4660</p>
+		<p>07/2017-06/2019 - Co-Chairman do PIIJ 4660</p>
+		<p>07/2018-06/2019 - Oficial de Intercâmbio do RC Santa Rosa Júnior, junto ao PIIJ 4660</p>
+		<p>07/2019-06/2020 - Conselheiro de Intercâmbio do RC Santa Rosa Júnior, junto ao PIIJ 4660</p>
+		<p>07/2019-06/2020 - Novas Gerações do RC Santa Rosa Júnior</p>
+		<p>07/2023-06/2024 - Integrante do Rotary e-Club do Distrito 4660</p>
+		<p>07/2023-06/2024 - Presidente Comissão de Projetos Humanitários do Rotary e-Club</p>
+	    </details>
+            <details><summary>FEBAP - Federação Econômica Brasil, Argentina e Paraguai</summary>
+		<p>08/2016-05/2018 - Protocolo da Gestão 2016/2018 - Brasil</p>
+		<p>06/2018-06/2020 - Protocolo da Gestão 2018/2020 - Brasil</p>
+		<p>07/2020-06/2022 - Protocolo da Gestão 2020/2022 - Brasil</p>
+	    </details>
+            <details><summary>INDUMÓVEIS - Feira da Construção e do Mobiliário do Noroeste do Estado do Rio Grande do Sul</summary>
+		<p>06/2018-07/2019 - Integrante da Comissão de bilheteria e Credenciamento na INDUMÓVEIS 2019</p>
+	    </details>
+            <details><summary>MEVAM - Missões Evangelísticas Vinde Amados Meus - Santa Rosa</summary>
+		<p>Desde 12/2025 - Liderança dos grupos de Convívio Santa Rosa</p>
+		<p>Desde 12/2025 - Liderança do MEVAM KIDS Santa Rosa</p>
+	    </details>
+            <details><summary>JORNAIS E REVISTAS</summary>
+		<p>08/2013-02/2016 - Colunista do Jornal Gazeta Regional de Santa Rosa, coluna “Da Tecnologia ao Direito”</p>
+		<p>06/2018-12/2018 - Colunista da Revista Gente News - Coluna "Voluntários em Ação"</p>
+	    </details>
         </section>
-
     </div>
-
     <footer>
-        <p><strong>Contatos e Canais de Atendimento</strong></p>
-        <p>📧 <a href="mailto:perito@rogeriodossantosferreira.com.br">perito@rogeriodossantosferreira.com.br</a></p>
-        <p>📱 Telefone / WhatsApp: (+55) 55 98157-0014</p>
-        <p>📍 Atendimento Principal: Santa Rosa - RS</p>
-        <p style="margin-top: 20px; font-size: 0.85rem; opacity: 0.8;">
-            Conecte-se comigo no <a href="#" target="_blank">LinkedIn</a>
-        </p>
+        <p><strong>Contatos e Canais de Atendimento</strong>
+        <br>📧 E-mail: <a href="mailto:perito@rogeriodossantosferreira.com.br">perito@rogeriodossantosferreira.com.br</a>
+        <br>💬 WhatsApp: <a href="https://api.whatsapp.com/send?phone=5555981570014&text=Olá!%20Acessei%20seu%20site%20e%20preciso%20de%20seus%20serviços.">55-98157-0014</a>
+	</p>
     </footer>
-
 </body>
 </html>
